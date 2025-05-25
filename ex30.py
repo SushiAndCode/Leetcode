@@ -15,7 +15,6 @@ def uniqueOccurrences(arr: list[int]) -> bool:
             elif i == len(arr)-1:
                 if counter in counters:
                     return False
-
         return True
 
 uniqueOccurrences([1,2])
